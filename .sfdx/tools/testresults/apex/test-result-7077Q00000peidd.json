@@ -1,0 +1,247 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Sep 15 2022 17:24:59",
+    "testExecutionTimeInMs": 591,
+    "testTotalTimeInMs": 591,
+    "commandTimeInMs": 156,
+    "hostname": "https://projetoccom-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q00000B3FplUAF",
+    "username": "p11@projetoc.com",
+    "testRunId": "7077Q00000peidd",
+    "userId": "0057Q000006GxKbQAK",
+    "totalLines": 54,
+    "coveredLines": 26,
+    "testRunCoverage": "48%",
+    "orgWideCoverage": "38%"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000aTyAUAU",
+      "queueItemId": "7097Q000000HBL5QAO",
+      "stackTrace": "Class.SetAccountToActiveTest.setAccountToActiveTest: line 22, column 1",
+      "message": "System.AssertException: Assertion Failed: Active_c is set to true when adding an order, test ok: Expected: true, Actual: false",
+      "asyncApexJobId": "7077Q00000peiddQAA",
+      "methodName": "setAccountToActiveTest",
+      "outcome": "Fail",
+      "apexLogId": "07L7Q000003n0T3UAI",
+      "apexClass": {
+        "id": "01p7Q00000NmPBpQAN",
+        "name": "SetAccountToActiveTest",
+        "namespacePrefix": null,
+        "fullName": "SetAccountToActiveTest"
+      },
+      "runTime": 591,
+      "testTimestamp": "2022-09-15T15:24:59.000+0000",
+      "fullName": "SetAccountToActiveTest.setAccountToActiveTest",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Active_c is set to true when adding an order, test ok: Expected: true, Actual: false",
+        "exceptionStackTrace": "Class.SetAccountToActiveTest.setAccountToActiveTest: line 22, column 1",
+        "className": "SetAccountToActiveTest",
+        "compileProblem": "",
+        "lineNumber": 22,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "OrderTriggerHandler",
+          "apexClassOrTriggerId": "01p7Q00000NlklxQAB",
+          "apexTestClassId": "01p7Q00000NmPBpQAN",
+          "apexTestMethodName": "setAccountToActiveTest",
+          "numLinesCovered": 12,
+          "numLinesUncovered": 12,
+          "percentage": "50%",
+          "coverage": {
+            "coveredLines": [
+              17,
+              21,
+              24,
+              25,
+              29,
+              30,
+              33,
+              34,
+              35,
+              36,
+              39,
+              40
+            ],
+            "uncoveredLines": [
+              44,
+              48,
+              51,
+              52,
+              56,
+              57,
+              60,
+              61,
+              62,
+              63,
+              66,
+              67
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "DataFactory",
+          "apexClassOrTriggerId": "01p7Q00000NmNOrQAN",
+          "apexTestClassId": "01p7Q00000NmPBpQAN",
+          "apexTestMethodName": "setAccountToActiveTest",
+          "numLinesCovered": 11,
+          "numLinesUncovered": 15,
+          "percentage": "42%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              6,
+              7,
+              8,
+              11,
+              12,
+              13,
+              14,
+              15,
+              17
+            ],
+            "uncoveredLines": [
+              20,
+              22,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              32,
+              35,
+              36,
+              37,
+              38,
+              39,
+              41
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "OrderTrigger",
+          "apexClassOrTriggerId": "01q7Q000000cs5iQAA",
+          "apexTestClassId": "01p7Q00000NmPBpQAN",
+          "apexTestMethodName": "setAccountToActiveTest",
+          "numLinesCovered": 3,
+          "numLinesUncovered": 1,
+          "percentage": "75%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              6,
+              8
+            ],
+            "uncoveredLines": [
+              9
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01q7Q000000cs5iQAA",
+      "name": "OrderTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 3,
+      "numLinesUncovered": 1,
+      "percentage": "75%",
+      "coveredLines": [
+        5,
+        6,
+        8
+      ],
+      "uncoveredLines": [
+        9
+      ]
+    },
+    {
+      "apexId": "01p7Q00000NlklxQAB",
+      "name": "OrderTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 12,
+      "numLinesUncovered": 12,
+      "percentage": "50%",
+      "coveredLines": [
+        17,
+        21,
+        24,
+        25,
+        29,
+        30,
+        33,
+        34,
+        35,
+        36,
+        39,
+        40
+      ],
+      "uncoveredLines": [
+        44,
+        48,
+        51,
+        52,
+        56,
+        57,
+        60,
+        61,
+        62,
+        63,
+        66,
+        67
+      ]
+    },
+    {
+      "apexId": "01p7Q00000NmNOrQAN",
+      "name": "DataFactory",
+      "type": "ApexClass",
+      "numLinesCovered": 11,
+      "numLinesUncovered": 15,
+      "percentage": "42%",
+      "coveredLines": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17
+      ],
+      "uncoveredLines": [
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        32,
+        35,
+        36,
+        37,
+        38,
+        39,
+        41
+      ]
+    }
+  ]
+}

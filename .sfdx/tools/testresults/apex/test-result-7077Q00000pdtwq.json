@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "outcome": "Skipped",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 0,
+    "skipped": 1,
+    "passRate": "0%",
+    "failRate": "0%",
+    "skipRate": "100%",
+    "testStartTime": "Wed Sep 14 2022 17:31:38",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 129,
+    "hostname": "https://projetoccom-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q00000B3FplUAF",
+    "username": "p11@projetoc.com",
+    "testRunId": "7077Q00000pdtwq",
+    "userId": "0057Q000006GxKbQAK",
+    "totalLines": 0,
+    "coveredLines": 0,
+    "testRunCoverage": "0%",
+    "orgWideCoverage": "25%"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000aSIwUAM",
+      "queueItemId": "7097Q000000HBH2QAO",
+      "stackTrace": null,
+      "message": "Method setAccountToActiveTest does not exist in the the apex class with Id :01p7Q00000NmNbd",
+      "asyncApexJobId": "7077Q00000pdtwqQAA",
+      "methodName": "setAccountToActiveTest",
+      "outcome": "Skip",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000NmNbdQAF",
+        "name": "OrderTriggerHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OrderTriggerHandlerTest"
+      },
+      "runTime": 0,
+      "testTimestamp": "2022-09-14T15:31:38.000+0000",
+      "fullName": "OrderTriggerHandlerTest.setAccountToActiveTest",
+      "diagnostic": {
+        "exceptionMessage": "Method setAccountToActiveTest does not exist in the the apex class with Id :01p7Q00000NmNbd",
+        "exceptionStackTrace": null,
+        "compileProblem": ""
+      }
+    }
+  ],
+  "codecoverage": []
+}

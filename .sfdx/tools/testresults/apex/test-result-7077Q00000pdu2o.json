@@ -1,0 +1,245 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Sep 14 2022 17:37:14",
+    "testExecutionTimeInMs": 685,
+    "testTotalTimeInMs": 685,
+    "commandTimeInMs": 128,
+    "hostname": "https://projetoccom-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q00000B3FplUAF",
+    "username": "p11@projetoc.com",
+    "testRunId": "7077Q00000pdu2o",
+    "userId": "0057Q000006GxKbQAK",
+    "totalLines": 54,
+    "coveredLines": 30,
+    "testRunCoverage": "56%",
+    "orgWideCoverage": "41%"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000aSJGUA2",
+      "queueItemId": "7097Q000000HBHMQA4",
+      "stackTrace": "Class.OrderTriggerHandlerTest.accountOrdersCheckTest: line 36, column 1",
+      "message": "System.DmlException: Delete failed. First exception on row 0 with id 8017Q000000yOc0QAE; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, OrderTrigger: execution of AfterDelete\n\ncaused by: System.NullPointerException: Attempt to de-reference a null object\n\nClass.OrderTriggerHandler.accountOrdersCheck: line 52, column 1\nTrigger.OrderTrigger: line 9, column 1: []",
+      "asyncApexJobId": "7077Q00000pdu2oQAA",
+      "methodName": "accountOrdersCheckTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000NmNbdQAF",
+        "name": "OrderTriggerHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OrderTriggerHandlerTest"
+      },
+      "runTime": 685,
+      "testTimestamp": "2022-09-14T15:37:14.000+0000",
+      "fullName": "OrderTriggerHandlerTest.accountOrdersCheckTest",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Delete failed. First exception on row 0 with id 8017Q000000yOc0QAE; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, OrderTrigger: execution of AfterDelete\n\ncaused by: System.NullPointerException: Attempt to de-reference a null object\n\nClass.OrderTriggerHandler.accountOrdersCheck: line 52, column 1\nTrigger.OrderTrigger: line 9, column 1: []",
+        "exceptionStackTrace": "Class.OrderTriggerHandlerTest.accountOrdersCheckTest: line 36, column 1",
+        "className": "OrderTriggerHandlerTest",
+        "compileProblem": "",
+        "lineNumber": 36,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "DataFactory",
+          "apexClassOrTriggerId": "01p7Q00000NmNOrQAN",
+          "apexTestClassId": "01p7Q00000NmNbdQAF",
+          "apexTestMethodName": "accountOrdersCheckTest",
+          "numLinesCovered": 11,
+          "numLinesUncovered": 15,
+          "percentage": "42%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              6,
+              7,
+              8,
+              25,
+              26,
+              27,
+              28,
+              29,
+              31
+            ],
+            "uncoveredLines": [
+              10,
+              12,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              22,
+              34,
+              35,
+              36,
+              37,
+              38,
+              40
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "OrderTrigger",
+          "apexClassOrTriggerId": "01q7Q000000cs5iQAA",
+          "apexTestClassId": "01p7Q00000NmNbdQAF",
+          "apexTestMethodName": "accountOrdersCheckTest",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              6,
+              8,
+              9
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "OrderTriggerHandler",
+          "apexClassOrTriggerId": "01p7Q00000NlklxQAB",
+          "apexTestClassId": "01p7Q00000NmNbdQAF",
+          "apexTestMethodName": "accountOrdersCheckTest",
+          "numLinesCovered": 15,
+          "numLinesUncovered": 9,
+          "percentage": "63%",
+          "coverage": {
+            "coveredLines": [
+              18,
+              22,
+              25,
+              26,
+              30,
+              31,
+              34,
+              35,
+              36,
+              37,
+              40,
+              41,
+              45,
+              49,
+              52
+            ],
+            "uncoveredLines": [
+              53,
+              57,
+              58,
+              61,
+              62,
+              63,
+              64,
+              67,
+              68
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01q7Q000000cs5iQAA",
+      "name": "OrderTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p7Q00000NlklxQAB",
+      "name": "OrderTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 15,
+      "numLinesUncovered": 9,
+      "percentage": "63%",
+      "coveredLines": [
+        18,
+        22,
+        25,
+        26,
+        30,
+        31,
+        34,
+        35,
+        36,
+        37,
+        40,
+        41,
+        45,
+        49,
+        52
+      ],
+      "uncoveredLines": [
+        53,
+        57,
+        58,
+        61,
+        62,
+        63,
+        64,
+        67,
+        68
+      ]
+    },
+    {
+      "apexId": "01p7Q00000NmNOrQAN",
+      "name": "DataFactory",
+      "type": "ApexClass",
+      "numLinesCovered": 11,
+      "numLinesUncovered": 15,
+      "percentage": "42%",
+      "coveredLines": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31
+      ],
+      "uncoveredLines": [
+        10,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40
+      ]
+    }
+  ]
+}

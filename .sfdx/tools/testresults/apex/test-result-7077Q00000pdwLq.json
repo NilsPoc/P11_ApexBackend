@@ -1,0 +1,196 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Sep 14 2022 19:25:30",
+    "testExecutionTimeInMs": 114,
+    "testTotalTimeInMs": 114,
+    "commandTimeInMs": 287,
+    "hostname": "https://projetoccom-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q00000B3FplUAF",
+    "username": "p11@projetoc.com",
+    "testRunId": "7077Q00000pdwLq",
+    "userId": "0057Q000006GxKbQAK",
+    "totalLines": 42,
+    "coveredLines": 7,
+    "testRunCoverage": "17%",
+    "orgWideCoverage": "30%"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000aSLHUA2",
+      "queueItemId": "7097Q000000HBJDQA4",
+      "stackTrace": "Class.UpdateInactiveAccounts.start: line 8, column 1",
+      "message": "System.QueryException: unexpected token: 'FROM'",
+      "asyncApexJobId": "7077Q00000pdwLqQAI",
+      "methodName": "updateInactiveAccountTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000NmP2bQAF",
+        "name": "UpdateInactiveAccountsTest",
+        "namespacePrefix": null,
+        "fullName": "UpdateInactiveAccountsTest"
+      },
+      "runTime": 114,
+      "testTimestamp": "2022-09-14T17:25:31.000+0000",
+      "fullName": "UpdateInactiveAccountsTest.updateInactiveAccountTest",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: unexpected token: 'FROM'",
+        "exceptionStackTrace": "Class.UpdateInactiveAccounts.start: line 8, column 1",
+        "className": "UpdateInactiveAccounts",
+        "compileProblem": "",
+        "lineNumber": 8,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "UpdateInactiveAccounts",
+          "apexClassOrTriggerId": "01p7Q00000Nlkm2QAB",
+          "apexTestClassId": "01p7Q00000NmP2bQAF",
+          "apexTestMethodName": "updateInactiveAccountTest",
+          "numLinesCovered": 2,
+          "numLinesUncovered": 14,
+          "percentage": "13%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              8
+            ],
+            "uncoveredLines": [
+              11,
+              12,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              24,
+              27,
+              30
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "DataFactory",
+          "apexClassOrTriggerId": "01p7Q00000NmNOrQAN",
+          "apexTestClassId": "01p7Q00000NmP2bQAF",
+          "apexTestMethodName": "updateInactiveAccountTest",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 21,
+          "percentage": "19%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              6,
+              7,
+              8
+            ],
+            "uncoveredLines": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              17,
+              20,
+              22,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              32,
+              35,
+              36,
+              37,
+              38,
+              39,
+              41
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p7Q00000Nlkm2QAB",
+      "name": "UpdateInactiveAccounts",
+      "type": "ApexClass",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 14,
+      "percentage": "13%",
+      "coveredLines": [
+        5,
+        8
+      ],
+      "uncoveredLines": [
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        27,
+        30
+      ]
+    },
+    {
+      "apexId": "01p7Q00000NmNOrQAN",
+      "name": "DataFactory",
+      "type": "ApexClass",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 21,
+      "percentage": "19%",
+      "coveredLines": [
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "uncoveredLines": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        32,
+        35,
+        36,
+        37,
+        38,
+        39,
+        41
+      ]
+    }
+  ]
+}

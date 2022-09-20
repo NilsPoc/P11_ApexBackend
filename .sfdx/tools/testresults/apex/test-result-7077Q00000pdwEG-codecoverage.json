@@ -1,0 +1,76 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "DataFactory",
+      "apexClassOrTriggerId": "01p7Q00000NmNOrQAN",
+      "apexTestClassId": "01p7Q00000NmP2bQAF",
+      "apexTestMethodName": "updateInactiveAccountTest",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 21,
+      "percentage": "19%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "uncoveredLines": [
+          10,
+          12,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          34,
+          35,
+          36,
+          37,
+          38,
+          40
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "UpdateInactiveAccounts",
+      "apexClassOrTriggerId": "01p7Q00000Nlkm2QAB",
+      "apexTestClassId": "01p7Q00000NmP2bQAF",
+      "apexTestMethodName": "updateInactiveAccountTest",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 14,
+      "percentage": "13%",
+      "coverage": {
+        "coveredLines": [
+          5,
+          8
+        ],
+        "uncoveredLines": [
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          27,
+          30
+        ]
+      }
+    }
+  ]
+]
