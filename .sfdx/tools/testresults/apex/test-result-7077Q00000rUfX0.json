@@ -1,0 +1,227 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Sep 21 2022 15:41:13",
+    "testExecutionTimeInMs": 606,
+    "testTotalTimeInMs": 606,
+    "commandTimeInMs": 178,
+    "hostname": "https://projetoccom-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q00000B3FplUAF",
+    "username": "p11@projetoc.com",
+    "testRunId": "7077Q00000rUfX0",
+    "userId": "0057Q000006GxKbQAK",
+    "totalLines": 51,
+    "coveredLines": 51,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "72%"
+  },
+  "tests": [
+    {
+      "id": "07M7Q000000aej1UAA",
+      "queueItemId": "7097Q000000HCEQQA4",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q00000rUfX0QAK",
+      "methodName": "deleteOrdersTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000NmguPQAR",
+        "name": "AccountOrdersDeleteTest",
+        "namespacePrefix": null,
+        "fullName": "AccountOrdersDeleteTest"
+      },
+      "runTime": 606,
+      "testTimestamp": "2022-09-21T13:41:14.000+0000",
+      "fullName": "AccountOrdersDeleteTest.deleteOrdersTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "OrderTriggerHandler",
+          "apexClassOrTriggerId": "01p7Q00000NlklxQAB",
+          "apexTestClassId": "01p7Q00000NmguPQAR",
+          "apexTestMethodName": "deleteOrdersTest",
+          "numLinesCovered": 21,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              17,
+              21,
+              24,
+              25,
+              29,
+              32,
+              33,
+              35,
+              36,
+              40,
+              44,
+              47,
+              48,
+              52,
+              53,
+              56,
+              57,
+              58,
+              59,
+              62,
+              63
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "OrderTrigger",
+          "apexClassOrTriggerId": "01q7Q000000cs5iQAA",
+          "apexTestClassId": "01p7Q00000NmguPQAR",
+          "apexTestMethodName": "deleteOrdersTest",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              6,
+              8,
+              9
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "DataFactory",
+          "apexClassOrTriggerId": "01p7Q00000NmNOrQAN",
+          "apexTestClassId": "01p7Q00000NmguPQAR",
+          "apexTestMethodName": "deleteOrdersTest",
+          "numLinesCovered": 26,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              6,
+              7,
+              8,
+              11,
+              12,
+              13,
+              14,
+              15,
+              17,
+              20,
+              22,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              32,
+              35,
+              36,
+              37,
+              38,
+              39,
+              41
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01q7Q000000cs5iQAA",
+      "name": "OrderTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p7Q00000NlklxQAB",
+      "name": "OrderTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 21,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        17,
+        21,
+        24,
+        25,
+        29,
+        32,
+        33,
+        35,
+        36,
+        40,
+        44,
+        47,
+        48,
+        52,
+        53,
+        56,
+        57,
+        58,
+        59,
+        62,
+        63
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p7Q00000NmNOrQAN",
+      "name": "DataFactory",
+      "type": "ApexClass",
+      "numLinesCovered": 26,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        20,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        32,
+        35,
+        36,
+        37,
+        38,
+        39,
+        41
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

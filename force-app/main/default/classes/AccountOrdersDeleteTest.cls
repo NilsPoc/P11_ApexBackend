@@ -26,7 +26,6 @@ public with sharing class AccountOrdersDeleteTest {
         Account act = [SELECT Id, Active__c FROM Account LIMIT 1];
 
         Order ord = [SELECT Id FROM Order WHERE AccountId =: act.Id];
-        update ord;
 
         Test.startTest();
         Delete ord;
