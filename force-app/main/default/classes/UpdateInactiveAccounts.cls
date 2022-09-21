@@ -12,6 +12,7 @@
     global void execute(Database.BatchableContext info, List<Account> scope){      
         List<Task> tasksList = new List<Task>();
                 
+            // Add a call reminder task to every accounts that have no tasks and no orders
             for(Account acc: scope) {
                 if(acc.Tasks.size() == 0 && acc.Orders.size() == 0){
                     Task reminderCall = new Task(
