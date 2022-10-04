@@ -10,6 +10,7 @@ public class SetAccountToActiveTest {
     @IsTest
     static void setAccountToActiveTest(){
 
+        //test rg 02 : active__c must be modified from false to true when an order is created for an account
         Account act = new Account();
         act = [SELECT Id, Active__c FROM Account LIMIT 1];
         

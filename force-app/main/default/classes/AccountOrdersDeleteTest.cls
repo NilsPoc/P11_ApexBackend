@@ -23,6 +23,7 @@ public with sharing class AccountOrdersDeleteTest {
     @IsTest
     static void deleteOrdersTest() {
       
+        //test rg 02(2) : when an order is deleted, if no orders remain an account's active__c must be set to false
         Account act = [SELECT Id, Active__c FROM Account LIMIT 1];
 
         Order ord = [SELECT Id FROM Order WHERE AccountId =: act.Id];

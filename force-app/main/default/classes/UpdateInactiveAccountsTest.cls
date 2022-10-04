@@ -8,6 +8,7 @@ public with sharing class UpdateInactiveAccountsTest {
 
     @IsTest
     static void updateInactiveAccountTest() {
+        //test rg03 : we check if a reminder task is created on an empty account after executing batch
         Account act = [SELECT Id FROM Account LIMIT 1];
 
         Test.startTest();
